@@ -1,10 +1,12 @@
 package com.projeto1.eneias.model;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
 public class Propriedade {
 	
+	@Id
 	private String nome;
 	private String valor;
 	private String descricao;
